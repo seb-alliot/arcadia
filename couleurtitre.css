@@ -7,10 +7,14 @@ font-weight: 400;
 line-height: normal;
 }
 /* style et couleur pour le titre di site */
-h2,h3,h4,h5{font-weight: normal;color: #1a1818;
+h2,h3,h4,h5{font-weight: normal;color: #ffffff;
     font-family: JejuHallasan;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+body{
+    background-image: url("../../animaux zoo/lion.jpg");
 }
