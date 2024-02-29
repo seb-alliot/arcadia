@@ -18,11 +18,12 @@ h1 {
 
 .link{
     display: flex;/** permet de mettre les éléments en ligne */
-    flex-direction: column-reverse;/** permet de mettre les éléments en colonne not-reverse est a gauche  de base*/
-    flex-wrap: wrap;/** permet de faire passer les éléments à la ligne */
-    float: right;/** position de la colonne du menu */
-    gap: 30px;/** espace entre les éléments */
-    }
+    flex-direction: column;/** permet de mettre les éléments en colonne not-reverse est a gauche  de base*/
+    float: right;
+    gap: 35px;/** espace entre les éléments de la colonne */
+
+    justify-content: flex-end;/** position de la colonne du menu */
+}
     .link a{
         color: #FFF;
         font-family: JejuHallasan;
@@ -37,7 +38,7 @@ h1 {
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
-    animation: changeBackground 45s infinite;
+    animation: changeBackground 60s infinite;
 }
 
 @keyframes changeBackground {
