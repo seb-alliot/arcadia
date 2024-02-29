@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-weight: normal;
+    color: #5AA100;
+    font-family: JejuHallasan;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    min-height: 10vh;
+    opacity: 0.9;
+    color: white;
+    font-family: JejuHallasan;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.lioncontainer{ 
+    background-image: url(./animaux_zoo/lionfonddecran.svg);
+    background-size: cover;
+    height:100vh; /* 100% de la hauteur de l'écran */
+    background-position: center;
+    background-repeat: no-repeat;
+}
