@@ -33,7 +33,7 @@ h1 {
     
     
 .lioncontainer {
-    background-image: url('./animaux_zoo/lion.webp');
+    background-image: url('./animaux_zoo/lion.svg');
     background-size: 100%, 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,8 +65,11 @@ h1 {
 }
 
 .logo {
-    display: flex;
-    width: 300px;
-    height: 80px;
-    margin-left: 40px;
+    margin: 40px;
+}
+@media only screen and (max-width: 768px) {
+        /* Remplacez 768px par la taille appropriée pour votre design mobile */
+        .logo {
+            margin: 0; /* Désactive les marges */
+        }
     }
