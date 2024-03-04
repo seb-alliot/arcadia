@@ -1,0 +1,43 @@
+* {
+    margin:0;
+    padding:0; 
+}
+
+.logo-figma {
+    background-image: url('./animaux_zoo/logo_arcadia.svg') ;
+
+}
+.logo-figma img {
+    display: flex;
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    top: 20px;
+}
+
+.fondecran-figma {
+    background-image: url('./animaux_zoo/lion.webp');
+    background-size: cover;
+    width: 1632px;
+    height: 918px;
+}
+
+.fondecran2 {
+    background-image: url('./animaux_zoo/suiteelephant.webp');
+    background-size: cover;
+    width: 1632px;
+    height: 918px;
+}
+.fondecran3 {
+    background-image: url('./photo-habitat/marais2.webp');
+    background-size: cover;
+    width: 1632px;
+    height: 918px;
+}
+.position-nav {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    top: 20px;
+    left: 20px;
+}
