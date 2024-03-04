@@ -9,10 +9,9 @@
 }
 .logo-figma img {
     display: flex;
-    position: absolute;
-    width: 450px;
-    height: 100px;
-    top: 20px;
+    position: relative;
+    margin-left: 40px;
+    top:50px;
 }
 
 .fondecran-figma {
@@ -34,10 +33,24 @@
     width: 1632px;
     height: 918px;
 }
+
+h1,h2,h3{
+    display:none;
+}
+
+
 .position-nav {
+    list-style-type: none;
     display: flex;
     flex-direction: column;
     float: right;
-    top: 20px;
-    left: 20px;
+    align-items: center;
+    margin-right: 30px;
+}
+.position-nav a {
+    color: white;
+    font-family: JejuHallasan;
+    font-size: 25px;
+    font-weight: 285;
+    margin-top: 20px;
 }
