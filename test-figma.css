@@ -39,7 +39,7 @@ h1,h2,h3{
 }
 
 
-.position-nav {
+.nav-menu {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -47,43 +47,26 @@ h1,h2,h3{
     align-items: center;
     margin-right: 30px;
 }
-.position-nav a {
-    color: white;
+.nav-menu a {
     font-family: JejuHallasan;
     font-size: 25px;
     font-weight: 285;
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-.nav_habitat{
-    display:flex;
+.nav_service {
+    display: flex;
     flex-direction: column;
+}
+.couleur_text_photo{
 
+    color: white;
+    font-size: 30px;
+    font-family: JejuHallasan;
 }
 
-.nav_habitat img{
+.nav_service img {
     width: 148.75px;
     height: 97.75px;
-    margin-bottom: 10px;
-    
+    margin-top: 20px;
 }
-.couleur_text_photo {
-    color: white;
-    display: flex;
-    text-align: right;
-    margin: 0px;
-
-}
-=======
-.habitat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 175px;
-    height: 115px;
-    align-self: 0px;
-    
-}
-
->>>>>>> da86429b0142125dc327adb8356ecc6d01a5fa99
