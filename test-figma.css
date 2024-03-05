@@ -55,18 +55,6 @@ h1,h2,h3{
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-.habitat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 175px;
-    height: 115px;
-    align-self: 0px;
-    
-}
-
-=======
 .nav_habitat{
     display:flex;
     flex-direction: column;
@@ -86,4 +74,3 @@ h1,h2,h3{
     margin: 0px;
 
 }
->>>>>>> 57787e9fe99779daa95a89d522dd4cc907c3535b
