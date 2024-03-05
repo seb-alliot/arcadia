@@ -54,3 +54,23 @@ h1,h2,h3{
     font-weight: 285;
     margin-top: 20px;
 }
+
+.nav_habitat{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.nav_habitat img{
+    width: 148.75px;
+    height: 97.75px;
+    margin-bottom: 10px;
+    
+}
+.couleur_text_photo {
+    color: white;
+    display: flex;
+    text-align: right;
+    margin: 0px;
+
+}
