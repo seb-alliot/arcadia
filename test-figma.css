@@ -49,24 +49,32 @@ h1,h2,h3{
 }
 .nav-menu a {
     font-family: JejuHallasan;
+    color: white;
     font-size: 25px;
     font-weight: 285;
     margin-top: 20px;
 }
 
-.nav_service {
-    display: flex;
-    flex-direction: column;
-}
 .couleur_text_photo{
-
     color: white;
     font-size: 30px;
     font-family: JejuHallasan;
 }
 
+.nav_service {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .nav_service img {
     width: 148.75px;
-    height: 97.75px;
-    margin-top: 20px;
+    height: 97.75px;   
+}
+
+.nav_service p {
+    margin:0px;
+    color: white;
+    font-size: 20px;
+    font-family: JejuHallasan;
 }
