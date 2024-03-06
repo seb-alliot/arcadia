@@ -3,35 +3,30 @@
     padding:0; 
 }
 
-.logo-figma {
-    background-image: url('./animaux_zoo/logo_arcadia.svg') ;
 
-}
-.logo-figma img {
+#logo-figma img {
     display: flex;
     position: relative;
     margin-left: 40px;
     top:50px;
 }
 
-.fondecran-figma {
-    background-image: url('./animaux_zoo/lion.webp');
-    background-size: cover;
+.width-frontsize {
     width: 1632px;
     height: 918px;
+    background-size: cover;
+
 }
 
-.fondecran2 {
-    background-image: url('./animaux_zoo/suiteelephant.webp');
-    background-size: cover;
-    width: 1632px;
-    height: 918px;
+header {
+    background-image: url('./animaux_zoo/lion.webp');
 }
-.fondecran3 {
+
+#fondecrandeux {
+    background-image: url('./animaux_zoo/suiteelephant.webp');
+}
+#fondecrantrois {
     background-image: url('./photo-habitat/marais2.webp');
-    background-size: cover;
-    width: 1632px;
-    height: 918px;
 }
 
 h1,h2,h3{
@@ -39,42 +34,55 @@ h1,h2,h3{
 }
 
 
-.nav-menu {
+header nav #menu-service{
     list-style-type: none;
     display: flex;
     flex-direction: column;
     float: right;
     align-items: center;
+    line-height: 50px;
     margin-right: 30px;
+    margin-top: 100px;
 }
-.nav-menu a {
+
+header nav #menu-service li a{
     font-family: JejuHallasan;
     color: white;
     font-size: 25px;
     font-weight: 285;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
-.couleur_text_photo{
-    color: white;
-    font-size: 30px;
-    font-family: JejuHallasan;
-}
 
-.nav_service {
+
+#fondecrandeux  nav li {
     display: flex;
-    flex-direction: column;
-
+    position: relative;
+    float: left;
+    width: 100%;
 }
 
-.nav_service img {
+
+#fondecrandeux  nav li img {
+    display: flex;
     width: 148.75px;
     height: 97.75px;   
 }
 
-.nav_service p {
-    margin:0px;
+#fondecrandeux p {
+    align-self: center;
     color: white;
+    margin:10px;
     font-size: 20px;
     font-family: JejuHallasan;
+}
+
+#fondecrandeux  nav {
+    display: flex;
+    position: center;
+    flex-direction: column;
+    float: left;
+    width: 100%;
+    margin-top: 577.15px;
+    margin-left: 50px;
 }
