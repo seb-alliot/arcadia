@@ -22,7 +22,7 @@ header {
     background-image: url('./animaux_zoo/lion.webp');
 }
 
-#fondecrandeux {
+#habitat {
     background-image: url('./animaux_zoo/suiteelephant.webp');
 }
 #fondecrantrois {
@@ -34,7 +34,7 @@ h1,h2,h3{
 }
 
 
-header nav #menu-service{
+header nav #menu-site{
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ header nav #menu-service{
     margin-top: 100px;
 }
 
-header nav #menu-service li a{
+header nav #menu-site li a{
     font-family: JejuHallasan;
     color: white;
     font-size: 25px;
@@ -55,7 +55,7 @@ header nav #menu-service li a{
 
 
 
-#fondecrandeux  nav li {
+#habitat  nav li {
     display: flex;
     position: relative;
     float: left;
@@ -63,13 +63,13 @@ header nav #menu-service li a{
 }
 
 
-#fondecrandeux  nav li img {
+#habitat  nav li img {
     display: flex;
     width: 148.75px;
     height: 97.75px;   
 }
 
-#fondecrandeux p {
+#habitat p {
     align-self: center;
     color: white;
     margin:10px;
@@ -77,7 +77,7 @@ header nav #menu-service li a{
     font-family: JejuHallasan;
 }
 
-#fondecrandeux  nav {
+#habitat  nav {
     display: flex;
     position: center;
     flex-direction: column;
