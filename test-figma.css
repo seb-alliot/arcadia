@@ -59,28 +59,44 @@ h1,h2,h3{
 }
 
 
-.menu-service {
-    display:flex;
-    flex-wrap:wrap;
-    width: 240px;
+#menu-service {
+    display: flex;
+    flex-wrap: wrap;
+    width: 204px;
+    margin-top: 430px;
+    margin-left: 20px;
 }
 
-#photo-zebre {
-    display: flex;
+#photo-zebre:first-child {
     width: 100%;
 }
 
+
 .petite-image {
-    width: 110px;
-    height: 100px;
+    height: 85px;
+    width: 100px;
 }
-#photo-restau{
-}
+
 
 #photo-train {
-
+    margin-left: 4px;
 }
 
+#text-service p {
+    font-family: JejuHallasan;
+    font-size: 20px;
+    color: white;
+}
+#text-service #menu-service {
+    display: flex;
+    align-items: right;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#menu-service #text-service{
+    display: block;
+    align-content: flex-end;
+}
 #habitat nav li {
     display: flex;
     position: relative;
