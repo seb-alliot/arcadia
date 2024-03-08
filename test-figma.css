@@ -42,20 +42,31 @@ h1,h2,h3{
     align-items: center;
     line-height: 50px;
     margin-right: 30px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 #menu-site li{
     list-style: none;
+    align-items: column;
 }
 
 #menu-site a{
     text-decoration: none;
     font-family: JejuHallasan;
     color: white;
-    font-size: 25px;
-    font-weight: 285;
-    margin-top: 50px;
+    font-size: 20px;
+    top: 50px;
+
+}
+
+ul #image-deco img{
+    background-image: url(./animaux_zoo/python-royal.jpg);
+    width: 179px;
+    height: 200px;
+    float: inline-end;
+    position: absolute;
+    top: 0;
+    right: auto;
 }
 
 
@@ -82,21 +93,21 @@ h1,h2,h3{
     margin-left: 4px;
 }
 
-#text-service p {
+#text-service p  {
+    margin-left: 250px;
     font-family: JejuHallasan;
     font-size: 20px;
     color: white;
+
 }
-#text-service #menu-service {
+#text-service {
     display: flex;
-    align-items: right;
-    margin-left: 20px;
-    margin-top: 20px;
+    flex-direction: column;
+    margin-top: -200px;
+    line-height: 2;
 }
-#menu-service #text-service{
-    display: block;
-    align-content: flex-end;
-}
+
+
 #habitat nav li {
     display: flex;
     position: relative;
@@ -125,5 +136,6 @@ h1,h2,h3{
     float: left;
     width: 100%;
     margin-top: 577.15px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
+
