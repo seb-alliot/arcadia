@@ -15,7 +15,6 @@
     width: 1632px;
     height: 918px;
     background-size: cover;
-
 }
 
 header {
@@ -25,7 +24,9 @@ header {
 #habitat {
     background-image: url('./animaux_zoo/suiteelephant.webp');
 }
-#fondecrantrois {
+
+
+#avis-client {
     background-image: url('./photo-habitat/marais2.webp');
 }
 
@@ -34,8 +35,7 @@ h1,h2,h3{
 }
 
 
-header nav #menu-site{
-    list-style-type: none;
+#menu-site{
     display: flex;
     flex-direction: column;
     float: right;
@@ -45,7 +45,12 @@ header nav #menu-site{
     margin-top: 100px;
 }
 
-header nav #menu-site li a{
+#menu-site li{
+    list-style: none;
+}
+
+#menu-site a{
+    text-decoration: none;
     font-family: JejuHallasan;
     color: white;
     font-size: 25px;
@@ -54,16 +59,36 @@ header nav #menu-site li a{
 }
 
 
+.menu-service {
+    display:flex;
+    flex-wrap:wrap;
+    width: 240px;
+}
 
-#habitat  nav li {
+#photo-zebre {
+    display: flex;
+    width: 100%;
+}
+
+.petite-image {
+    width: 110px;
+    height: 100px;
+}
+#photo-restau{
+}
+
+#photo-train {
+
+}
+
+#habitat nav li {
     display: flex;
     position: relative;
     float: left;
     width: 100%;
 }
 
-
-#habitat  nav li img {
+#habitat nav li img {
     display: flex;
     width: 148.75px;
     height: 97.75px;   
