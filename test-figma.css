@@ -139,3 +139,16 @@ ul #image-deco img{
     margin-left: 100px;
 }
 
+#avis-client a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: JejuHallasan;
+}
+
+#avis-client p {
+    display: flex;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 100px;
+}
