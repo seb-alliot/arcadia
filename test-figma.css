@@ -3,6 +3,10 @@
     padding:0; 
 }
 
+.text  {
+    font-family: JejuHallasan;
+    color: white;
+}
 
 #logo-figma img {
     display: flex;
@@ -47,13 +51,11 @@ h1,h2,h3{
 
 #menu-site li{
     list-style: none;
-    align-items: column;
 }
 
 #menu-site a{
     text-decoration: none;
-    font-family: JejuHallasan;
-    color: white;
+
     font-size: 20px;
     top: 50px;
 
@@ -95,9 +97,8 @@ ul #image-deco img{
 
 #text-service p  {
     margin-left: 250px;
-    font-family: JejuHallasan;
     font-size: 20px;
-    color: white;
+
 
 }
 #text-service {
@@ -123,10 +124,8 @@ ul #image-deco img{
 
 #habitat p {
     align-self: center;
-    color: white;
     margin:10px;
     font-size: 20px;
-    font-family: JejuHallasan;
 }
 
 #habitat  nav {
@@ -141,9 +140,7 @@ ul #image-deco img{
 
 #avis-client a{
     text-decoration: none;
-    color: white;
     font-size: 20px;
-    font-family: JejuHallasan;
 }
 
 #avis-client p {
