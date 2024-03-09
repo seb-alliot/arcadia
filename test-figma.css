@@ -6,6 +6,8 @@
 .text  {
     font-family: JejuHallasan;
     color: white;
+    text-decoration: none;
+    list-style: none;
 }
 
 #logo-figma img {
@@ -98,14 +100,13 @@ ul #image-deco img{
 #text-service p  {
     margin-left: 250px;
     font-size: 20px;
-
-
 }
 #text-service {
     display: flex;
     flex-direction: column;
     margin-top: -200px;
     line-height: 2;
+
 }
 
 
