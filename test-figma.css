@@ -60,7 +60,7 @@ h1,h2,h3{
 }
 
 ul #image-deco img{
-    background-image: url(./animaux_zoo/python-royal.jpg);
+    background-image: url("./animaux_zoo/python-royal.jpg");
     width: 179px;
     height: 200px;
     float: inline-end;
